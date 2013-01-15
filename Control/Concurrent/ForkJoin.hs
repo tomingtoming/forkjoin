@@ -1,7 +1,7 @@
-module Control.Concurrent.ForkJoin(
+module Control.Concurrent.ForkJoin (
   Thread, Status,
   fork, status, join
-)where
+) where
 
 import Control.Concurrent
 import Control.Concurrent.STM
