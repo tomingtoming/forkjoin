@@ -1,4 +1,4 @@
 forkjoin
 ========
 
-Fork/Join implementation on Haskell
+Simple implementation of fork-join model.
