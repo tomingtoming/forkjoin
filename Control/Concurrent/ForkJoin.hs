@@ -1,5 +1,5 @@
 module Control.Concurrent.ForkJoin (
-  Thread, Status,
+  Thread, Status (Running, Done),
   fork, status, join
 ) where
 
