@@ -31,7 +31,7 @@ status (Thread _ sts) = readTVarIO sts
 
 join :: Thread -> IO ()
 join (Thread _ sts) = atomically $ do
-  status <- readTVar sts
-  case status of
+  sts' <- readTVar sts
+  case sts' of
     Running -> retry
     Done    -> return ()
