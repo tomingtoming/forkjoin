@@ -3,7 +3,7 @@ Version:             0.1.0.0
 Synopsis:            Fork/Join implementation on Haskell
 Homepage:            https://github.com/tomingtoming/forkjoin
 Bug-reports:         https://github.com/tomingtoming/forkjoin/issues
-License:             MIT
+License:             BSD3
 License-file:        LICENSE
 Author:              tomingtoming
 Maintainer:          tomingtoming@gmail.com
