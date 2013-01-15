@@ -14,7 +14,7 @@ instance Show Status where
 
 data Thread = Thread ThreadId (TVar Status)
 instance Show Thread where
-  show (Thread id _) = "Thread(" ++ show id ++ ")"
+  show (Thread thid _) = "Thread(" ++ show thid ++ ")"
 instance Eq Thread where
   (Thread id1 _) == (Thread id2 _) = id1 == id2
 
